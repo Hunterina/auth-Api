@@ -26,7 +26,7 @@ namespace authAPI.Controllers{
     }
     public static class Constantes{
 
-        public const string ConnectionString = @"Server=localhost; User Id=login;Password=login;Encrypt=True;Trusted_Connection=False;";
+        public const string ConnectionString = @"Server=tcp:hyve-ews.database.windows.net,1433;Initial Catalog=hyve-ews-api;Persist Security Info=False;User ID=hyve-ews;Password=mX2cGdxtKBn6ZV3N;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
     }
     public static class AuthController{
         [FunctionName("Auth")]
